@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-wrap: nowrap;
+  white-space: nowrap;
   letter-spacing: 0.18px;
 }
 
@@ -54,7 +54,8 @@
   width: 100%;
   top: 0;
   margin-left: 33px;
-  margin-right: 181px;
+  margin-right: 186px;
+  justify-content: center;
 }
 
 .logo__img {
@@ -82,7 +83,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .address-items-street,
@@ -93,7 +94,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
-  text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .main {
@@ -329,6 +330,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
+  /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
   margin-left: 39px;
@@ -347,6 +349,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+  /* 24px */
   width: 254px;
   margin-left: 39px;
   bottom: 46px;
@@ -455,6 +458,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  /* 120% */
   margin-top: 25px;
 }
 
@@ -554,7 +558,6 @@
 .footer__menu-list {
   display: block;
   text-align: center;
-
   white-space: nowrap;
 }
 
@@ -579,8 +582,6 @@
   line-height: normal;
   text-underline-offset: 4px;
 }
-
-
 
 .footer__social-list-item {
   position: relative;
