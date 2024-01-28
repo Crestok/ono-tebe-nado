@@ -69,7 +69,6 @@
   text-decoration: none;
   list-style: none;
   flex-direction: column;
-  position: relative;
   width: 240px;
   margin-right: 34px;
 }
@@ -238,9 +237,7 @@
   border: 1px solid #FFF;
   padding: 12px 30px;
   font-size: 22px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
   color: #FFF;
@@ -272,7 +269,6 @@
   position: relative;
   flex-direction: row;
   gap: 25px;
-  position: relative;
   left: 24px;
   list-style: none;
   margin-top: 27px;
