@@ -301,7 +301,7 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  height: 563px;
+  height: 100%;
 }
 
 .card__title-text {
